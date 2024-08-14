@@ -5,6 +5,8 @@ Every project follows Gitflow. The two long living branches are `main` and `deve
 
 CI is handled by jenkins running in a Docker container. Every repo has it's own Jenkinsfile that it is used to run the Pipeline for the project.
 
+Check each microservice's repository for more details.
+
 Architecture
 -----
 Microservices:
