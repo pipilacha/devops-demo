@@ -1,7 +1,7 @@
-### This repo functions as a centrilazed hub for the microservices that make the voting app work
+### This repo functions as a centralized hub for the microservices that make the voting app work
 This a multi-repo version of [LFS261-example-voting-app](https://github.com/pipilacha/LFS261-example-voting-app) which is a mono-repository project.
 
-Every project follows Gitflow. The two long living branches are `main` and `develop`, which both are protected by checks.
+Every project follows Gitflow. The two long living branches are `main` and `develop`, both are protected by checks.
 
 CI is handled by jenkins running in a Docker container. Every repo has it's own Jenkinsfile that it is used to run the Pipeline for the project.
 
